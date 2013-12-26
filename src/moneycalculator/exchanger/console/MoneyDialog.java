@@ -1,9 +1,11 @@
-package moneycalculator;
+package moneycalculator.exchanger.console;
 
+import moneycalculator.exchanger.console.CurrencyDialog;
 import moneycalculator.number.DoubleNumber;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import moneycalculator.Money;
 
 public class MoneyDialog {
 

@@ -4,9 +4,9 @@ import moneycalculator.exchangerateloader.MockExchangeRateLoader;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import moneycalculator.CurrencyDialog;
+import moneycalculator.exchanger.console.CurrencyDialog;
 import moneycalculator.ExchangeRate;
-import moneycalculator.MoneyDialog;
+import moneycalculator.exchanger.console.MoneyDialog;
 import moneycalculator.MoneyCalculator;
 
 public class ConsoleExchanger implements Exchanger {

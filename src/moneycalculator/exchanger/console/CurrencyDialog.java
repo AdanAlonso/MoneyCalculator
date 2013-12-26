@@ -1,8 +1,10 @@
-package moneycalculator;
+package moneycalculator.exchanger.console;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import moneycalculator.Currency;
+import moneycalculator.CurrencySet;
 
 public class CurrencyDialog {
 

@@ -21,7 +21,7 @@ public class CurrencySet extends HashSet<Currency> {
                 return currency;
             if (currency.getSymbol().toLowerCase().equals(token.toLowerCase()))
                 return currency;
-            if (currency.getName().toLowerCase().contains(token.toLowerCase()))
+            if (currency.getName().toLowerCase().equals(token.toLowerCase()))
                 return currency;
         }
         return null;
