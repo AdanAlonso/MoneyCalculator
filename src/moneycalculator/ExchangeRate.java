@@ -1,5 +1,6 @@
 package moneycalculator;
 
+import moneycalculator.number.Number;
 import java.util.Date;
 
 public class ExchangeRate {

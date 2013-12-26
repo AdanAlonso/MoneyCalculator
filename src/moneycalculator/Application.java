@@ -1,13 +1,13 @@
 package moneycalculator;
 
+import moneycalculator.exchanger.ConsoleExchanger;
+import moneycalculator.currencysetloader.MockCurrencySetLoader;
 import java.io.IOException;
 
 public class Application {
 
     public static void main(String[] args) throws IOException {
         new MockCurrencySetLoader().load();
-        MoneyDialog moneyDialog = new MoneyDialog();
-        moneyDialog.execute();
-        System.out.println(moneyDialog.getMoney());
+        new ConsoleExchanger().execute();
     }
 }

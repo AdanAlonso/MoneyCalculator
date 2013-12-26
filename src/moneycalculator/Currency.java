@@ -28,6 +28,4 @@ public class Currency {
     public String toString() {
         return " " + symbol + " (" + code + ", " + name + ")";
     }
-    
-    
 }

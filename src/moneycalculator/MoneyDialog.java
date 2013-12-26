@@ -1,5 +1,6 @@
 package moneycalculator;
 
+import moneycalculator.number.DoubleNumber;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

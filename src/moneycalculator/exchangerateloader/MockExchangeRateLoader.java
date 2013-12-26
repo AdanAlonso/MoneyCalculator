@@ -1,6 +1,9 @@
-package moneycalculator;
+package moneycalculator.exchangerateloader;
 
+import moneycalculator.number.DoubleNumber;
 import java.util.Date;
+import moneycalculator.Currency;
+import moneycalculator.ExchangeRate;
 
 public class MockExchangeRateLoader implements ExchangeRateLoader{
 

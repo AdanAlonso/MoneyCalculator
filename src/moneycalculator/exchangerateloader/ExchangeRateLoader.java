@@ -1,6 +1,8 @@
-package moneycalculator;
+package moneycalculator.exchangerateloader;
 
 import java.util.Date;
+import moneycalculator.Currency;
+import moneycalculator.ExchangeRate;
 
 public interface ExchangeRateLoader {
 

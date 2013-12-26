@@ -1,4 +1,7 @@
-package moneycalculator;
+package moneycalculator.currencysetloader;
+
+import moneycalculator.Currency;
+import moneycalculator.CurrencySet;
 
 public class MockCurrencySetLoader implements CurrencySetLoader {
 

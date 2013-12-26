@@ -1,5 +1,7 @@
 package moneycalculator;
 
+import moneycalculator.number.Number;
+
 public class Money {
 
     private Number amount;
@@ -22,5 +24,4 @@ public class Money {
     public String toString() {
         return amount.toString() + currency;
     }
-    
 }

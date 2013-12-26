@@ -1,7 +1,6 @@
-package moneycalculator;
+package moneycalculator.number;
 
 public class DoubleNumber implements Number {
-
 
     private double value;
 

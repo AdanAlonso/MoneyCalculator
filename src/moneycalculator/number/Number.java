@@ -1,9 +1,9 @@
-package moneycalculator;
+package moneycalculator.number;
 
 public interface Number {
-    
+
     public double getValue();
-    
+
     public Number add(Number sumand);
 
     public Number substract(Number sustraend);

@@ -17,11 +17,11 @@ public class CurrencySet extends HashSet<Currency> {
 
     public Currency search(String token) {
         for (Currency currency : CurrencySet.getInstance()) {
-            if (currency.getCode().equalsIgnoreCase(token))
+            if (currency.getCode().toLowerCase().equals(token.toLowerCase()))
                 return currency;
-            if (currency.getSymbol().equalsIgnoreCase(token))
+            if (currency.getSymbol().toLowerCase().equals(token.toLowerCase()))
                 return currency;
-            if (currency.getName().contains(token))
+            if (currency.getName().toLowerCase().contains(token.toLowerCase()))
                 return currency;
         }
         return null;
