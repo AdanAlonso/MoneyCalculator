@@ -1,14 +1,14 @@
 package moneycalculator;
 
-public abstract class Number {
+public interface Number {
     
-    public abstract double getValue();
+    public double getValue();
     
-    public abstract Number add(Number sumand);
+    public Number add(Number sumand);
 
-    public abstract Number substract(Number sustraend);
+    public Number substract(Number sustraend);
 
-    public abstract Number multiply(Number multiplier);
+    public Number multiply(Number multiplier);
 
-    public abstract Number divide(Number divisor);
+    public Number divide(Number divisor);
 }

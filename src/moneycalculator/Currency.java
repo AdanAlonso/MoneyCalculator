@@ -23,4 +23,11 @@ public class Currency {
     public String getSymbol() {
         return symbol;
     }
+
+    @Override
+    public String toString() {
+        return " " + symbol + " (" + code + ", " + name + ")";
+    }
+    
+    
 }

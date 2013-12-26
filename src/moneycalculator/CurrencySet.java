@@ -14,4 +14,16 @@ public class CurrencySet extends HashSet<Currency> {
             instance = new CurrencySet();
         return instance;
     }
+
+    public Currency search(String token) {
+        for (Currency currency : CurrencySet.getInstance()) {
+            if (currency.getCode().equalsIgnoreCase(token))
+                return currency;
+            if (currency.getSymbol().equalsIgnoreCase(token))
+                return currency;
+            if (currency.getName().contains(token))
+                return currency;
+        }
+        return null;
+    }
 }

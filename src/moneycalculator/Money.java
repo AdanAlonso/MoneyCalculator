@@ -17,4 +17,10 @@ public class Money {
     public Currency getCurrency() {
         return currency;
     }
+
+    @Override
+    public String toString() {
+        return amount.toString() + currency;
+    }
+    
 }

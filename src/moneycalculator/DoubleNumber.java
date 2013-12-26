@@ -1,6 +1,7 @@
 package moneycalculator;
 
-public class DoubleNumber extends Number {
+public class DoubleNumber implements Number {
+
 
     private double value;
 
@@ -31,5 +32,10 @@ public class DoubleNumber extends Number {
     @Override
     public Number divide(Number divisor) {
         return new DoubleNumber(this.getValue() / divisor.getValue());
+    }
+    
+    @Override
+    public String toString() {
+        return Double.toString(value);
     }
 }
