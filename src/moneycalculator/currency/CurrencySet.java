@@ -1,4 +1,4 @@
-package moneycalculator;
+package moneycalculator.currency;
 
 import java.util.HashSet;
 

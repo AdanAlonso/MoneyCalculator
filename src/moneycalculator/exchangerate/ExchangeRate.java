@@ -1,16 +1,16 @@
-package moneycalculator;
+package moneycalculator.exchangerate;
 
-import moneycalculator.number.Number;
 import java.util.Date;
+import moneycalculator.currency.Currency;
 
 public class ExchangeRate {
 
     private Date date;
     private Currency fromCurrency;
     private Currency toCurrency;
-    private Number rate;
+    private double rate;
 
-    public ExchangeRate(Date date, Currency fromCurrency, Currency toCurrency, Number rate) {
+    public ExchangeRate(Date date, Currency fromCurrency, Currency toCurrency, double rate) {
         this.date = date;
         this.fromCurrency = fromCurrency;
         this.toCurrency = toCurrency;
@@ -29,7 +29,7 @@ public class ExchangeRate {
         return toCurrency;
     }
 
-    public Number getRate() {
+    public double getRate() {
         return rate;
     }
 }
